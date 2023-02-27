@@ -6,7 +6,6 @@ import soundfile as sf
 import sounddevice as sd
 from numpy.fft import fft  
 
-
 x_r, fm = sf.read('meg_prova1_p1.wav')       # Llegim el fitxer
 
 T = (1/fm)*len(x_r)
